@@ -1,10 +1,13 @@
-const uppercaseAll = (word1, word2, word3) => {
+const uppercaseAll = (word1, word2, ...word3) => {
   return [
     word1.toUpperCase(),
     word2.toUpperCase(),
     word3.toUpperCase(),
+    
   ];
 };
+
+//  console.log(uppercaseAll('log','frog', 'smog','bog','hog'))
 
 const destructureCoordinates = (coordinates) => {
   const x = coordinates[0];
