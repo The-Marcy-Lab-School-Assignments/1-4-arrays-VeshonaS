@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job! */
 /* eslint-disable no-param-reassign */
 const clearArr = (arr) => {
   arr.length = 0;

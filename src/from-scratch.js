@@ -1,3 +1,4 @@
+/** FEEDBACK: YES! I love the way you solved this first question! Because isFront is true or false, you did not need to set it equal to true or false, great job!!!! */
 const addToFrontOrBack = (arr, value, isFront) => {
 if (isFront){
   arr.unshift(value)
@@ -7,7 +8,7 @@ if (isFront){
 // console.log(addToFrontOrBack('value'))
 
 };
-
+/** FEEDBACK: Did you know that you could chain methods?  */
 const reverseString = (str) => {
   let splitstr = str.split("")
   let backwards = splitstr.reverse()
@@ -44,7 +45,7 @@ const isRightIndex = (arr, value , index) => {
 
 };
 // console.log(isRightIndex([1,2,3,4,5,6], 2, 5))
-
+/** FEEDBACK: Woah!!!! Great use of .map here! */
 const roundAllNumsDown = (arr) => {
   
  return arr.map(num => Math.floor(num))
